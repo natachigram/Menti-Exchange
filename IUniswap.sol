@@ -204,6 +204,9 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
+    //function feeTo() external view returns (address);
+    //function feeToSetter() external view returns (address);
+
 interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint value);
     event Transfer(address indexed from, address indexed to, uint value);
